@@ -13,8 +13,7 @@ div {
     width: 1920px;
     margin: 0 auto;
 }            
-.content{
-    float: center;
+.content{    
     width: 820px;
     height: 820px;
 }
@@ -25,10 +24,6 @@ div {
 }
 .footer{
     margin: 0 auto;
-}            
-#table1{
-    width: 1900px;
-    height: 98px;
 }
 .butn {
     width: 90px;
@@ -69,12 +64,6 @@ div {
 #form1{
     align-content: center;    
     text-align: center;
-}
-.table2{
-    text-align: center;
-    margin: 0 auto;
-    border: 1px crimson;
-    text-indent: 10px;
 }
 #about_me{
     font-family: Arial, sans-serif;
