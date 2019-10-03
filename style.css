@@ -9,9 +9,16 @@ div {
     border: 0px solid rgb(38, 0, 252);
 }
 .top-nav {
-    height: 128px;
-    width: 1920px;
+    height: 128px;    
     margin: 0 auto;
+}
+ul {
+    list-style-type: disc;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    align-content: center
+
 }            
 .content{    
     width: 820px;
@@ -61,9 +68,21 @@ div {
     text-align: center;
     font-size: 23px;
 }
+.title4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
 #form1{
     align-content: center;    
     text-align: center;
+}
+.table2{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px crimson;
+    text-indent: 10px;
 }
 #about_me{
     font-family: Arial, sans-serif;
