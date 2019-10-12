@@ -31,6 +31,8 @@ ul {
 }
 .footer{
     margin: 0 auto;
+    font-size: 26px;
+    text-align: -moz-left;
 }
 .butn {
     width: 90px;
@@ -46,15 +48,11 @@ ul {
     background: #3cb0fd;
     text-decoration: none;
 }
-#title1{
+.title1{
     font-family: Arial;
     font-size: 100px;
     color:black;
     text-align: center;
-}            
-#footer1{
-    font-size: 26px;
-    text-align: -moz-left;
 }
 .title2{
     font-family: Arial;
@@ -74,21 +72,6 @@ ul {
     text-align: center;
     font-size: 30px;
 }
-#form1{
-    align-content: center;    
-    text-align: center;
-}
-.table2{
-    text-align: center;
-    margin: 0 auto;
-    border: 1px crimson;
-    text-indent: 10px;
-}
-#about_me{
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: rgb(20, 180, 220);
-}    
 .info1{
     font-family: "Source Code Pro",sans-serif;
     font-size: 23px;
@@ -101,7 +84,7 @@ ul {
     color: rgb(0, 60, 255);
     text-align: center;
 }
-#txt3{
+.txt3{
     font-family: Cambria,sans-serif;
     font-size: 20px;
     color: red;
