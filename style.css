@@ -1,3 +1,6 @@
+@import url("/default-style.css");
+@import url("/wide-style.css") screen and (min-width:1024px);
+@media(min-width:640px) {
 body {
     background-color:lightblue;
 }
@@ -6,28 +9,22 @@ body, div, p {
     margin: 0 auto;
 }
 div {
-    border: 0px solid rgb(38, 0, 252);
-}
-.top-nav {
-    height: 128px;    
-    margin: 0 auto;
+    margin: 0px;
+    border: 0px solid rgb(38, 0, 252);    
 }
 ul {
-    list-style-type: disc;
+    display: flex;
+    list-style-type: none;    
+    position: relative;
+    justify-content: space-evenly;
     margin: 0px;
-    padding: 0px;
-    position: fixed;
-    align-content: center
-
+    border: 0px;
 }            
 .content{    
-    width: 820px;
-    height: 820px;
+    text-align: -webkit-center;
 }
 .main{
-    width: 1690px;
-    margin: 0 auto;
-    overflow: hidden;
+    min-height: 200px    
 }
 .footer{
     margin: 0 auto;
@@ -89,4 +86,5 @@ ul {
     font-size: 20px;
     color: red;
     text-align: center;
+}
 }
