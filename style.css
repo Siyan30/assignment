@@ -1,12 +1,137 @@
-@import url("/default-style.css");
-@import url("/wide-style.css") screen and (min-width:1024px);
 @media(min-width:640px) {
+    .iphone{    
+        text-align: -webkit-center;
+        display: block;                
+    }
+    .pc{
+        display: none;
+    }    
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: left;
+        font-size: 23px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+    }
+    .butn {
+        width: 90px;
+        background: #e21a1a;
+        border-radius: 10px;
+        font-family: Arial;
+        color: black;
+        font-size: 28px;
+        padding: 10px 28px 10px 28px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 20px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 23px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+}
+@media(min-width:1280px){
+    .iphone{
+        display: none;
+    }
+    .pc{
+        text-align: -webkit-center;
+        display: block;
+    }
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 120px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 42px;
+        margin: 0px;        
+        padding: 15px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 50px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .butn {
+        width: 150px;
+        background: #e21a1a;        
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 40px;
+        padding: 10px 28px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;       
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 30px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 35px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+    .txt1{
+        font-size: 25px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tel{
+        font-size: 25px;
+        text-align: left;
+    }
+    .email{
+        font-size: 25px;
+        text-align: left;
+    }
+    .submit{
+        text-align: center;
+        font-size: 30px;
+    }
+}
 body {
     background-color:lightblue;
 }
 body, div, p {
-    padding: 0;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0px auto;
 }
 div {
     margin: 0px;
@@ -17,74 +142,12 @@ ul {
     list-style-type: none;    
     position: relative;
     justify-content: space-evenly;
-    margin: 0px;
-    border: 0px;
-}            
-.content{    
-    text-align: -webkit-center;
-}
-.main{
-    min-height: 200px    
+    margin: 5px;
+    border: 5px;
+    padding: 10px;
 }
 .footer{
     margin: 0 auto;
     font-size: 26px;
     text-align: -moz-left;
-}
-.butn {
-    width: 90px;
-    background: #e21a1a;
-    border-radius: 10px;
-    font-family: Arial;
-    color: black;
-    font-size: 28px;
-    padding: 10px 28px 10px 28px;
-    text-decoration: none;
-}
-.butn:hover {
-    background: #3cb0fd;
-    text-decoration: none;
-}
-.title1{
-    font-family: Arial;
-    font-size: 100px;
-    color:black;
-    text-align: center;
-}
-.title2{
-    font-family: Arial;
-    color: black;
-    text-align: center;
-    font-size: 23px;
-}
-.title3{
-    font-family: Arial;
-    color: black;
-    text-align: center;
-    font-size: 23px;
-}
-.title4 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-    text-align: center;
-    font-size: 30px;
-}
-.info1{
-    font-family: "Source Code Pro",sans-serif;
-    font-size: 23px;
-    color: rgb(0, 60, 255);
-    text-align: center;
-}
-.info2{
-    font-family: "Source Code Pro",sans-serif;
-    font-size: 23px;
-    color: rgb(0, 60, 255);
-    text-align: center;
-}
-.txt3{
-    font-family: Cambria,sans-serif;
-    font-size: 20px;
-    color: red;
-    text-align: center;
-}
 }
