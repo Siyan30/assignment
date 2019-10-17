@@ -1,11 +1,70 @@
-@media(min-width:640px) {
-    .iphone{    
+body {
+    background-color:lightblue;
+}
+ul {
+    display: flex;
+    list-style-type: none;    
+    position: relative;
+    justify-content: space-evenly;
+    margin: 5px;
+    border: 5px;
+    padding: 10px;
+}
+@media(min-width:320px) {
+    .slime{
         text-align: -webkit-center;
-        display: block;                
-    }
-    .pc{
-        display: none;
     }    
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: left;
+        font-size: 23px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+    }
+    .butn {
+        width: 40px;
+        background: #e21a1a;
+        border-radius: 10px;
+        font-family: Arial;
+        color: black;
+        font-size: 18px;
+        padding: 10px 28px 10px 28px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 20px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 20px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+}
+@media(min-width:640px) {
+    .slime{
+        text-align: -webkit-center;
+    }
     .title1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 80px;
@@ -52,14 +111,178 @@
         color: rgb(0, 60, 255);
         text-align: center;
     }
-}
-@media(min-width:1280px){
-    .iphone{
-        display: none;
+    .txt1{
+        font-size: 15px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    .pc{
+    .tel{
+        font-size: 15px;
+        text-align: left;
+    }
+    .email{
+        font-size: 15px;
+        text-align: left;
+    }
+    .submit{
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer{
+        margin: 0 auto;
+        font-size: 15px;
+        text-align: -moz-left;
+    }
+}
+@media(min-width:960px) {
+    .slime{
         text-align: -webkit-center;
-        display: block;
+    }
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 90px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: left;
+        font-size: 40px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 45px;
+    }
+    .butn {
+        width: 125px;
+        background: #e21a1a;
+        border-radius: 10px;
+        font-family: Arial;
+        color: black;
+        font-size: 40px;
+        padding: 10px 28px 10px 28px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 20px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 30px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+    .txt1{
+        font-size: 25px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tel{
+        font-size: 25px;
+        text-align: left;
+    }
+    .email{
+        font-size: 25px;
+        text-align: left;
+    }
+    .submit{
+        text-align: center;
+        font-size: 25px;
+    }
+    .footer{
+        margin: 0 auto;
+        font-size: 30px;
+        text-align: -moz-left;
+    }
+}
+@media(min-width:600px) {
+    .slime{
+        text-align: -webkit-center;
+    }
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: left;
+        font-size: 35px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 40px;
+    }
+    .butn {
+        width: 100px;
+        background: #e21a1a;
+        border-radius: 10px;
+        font-family: Arial;
+        color: black;
+        font-size: 35px;
+        padding: 10px 28px 10px 28px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 20px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 30px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+    .txt1{
+        font-size: 25px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tel{
+        font-size: 25px;
+        text-align: left;
+    }
+    .email{
+        font-size: 25px;
+        text-align: left;
+    }
+    .submit{
+        text-align: center;
+        font-size: 25px;
+    }
+    .footer{
+        margin: 0 auto;
+        font-size: 30px;
+        text-align: -moz-left;
+    }
+}
+@media(min-width:1024px) {
+    .slime{
+        text-align: -webkit-center;
     }
     .title1{
         font-family: Arial, Helvetica, sans-serif;
@@ -125,29 +348,157 @@
         text-align: center;
         font-size: 30px;
     }
+    .footer{
+        margin: 0 auto;
+        font-size: 30px;
+        text-align: -moz-left;
+    }
 }
-body {
-    background-color:lightblue;
+@media(min-width:1920px){
+    .slime{
+        text-align: -webkit-center;
+    }
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 180px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 70px;
+        margin: 0px;        
+        padding: 15px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 65px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .butn {
+        width: 270px;
+        background: #e21a1a;        
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 80px;
+        padding: 10px 28px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;       
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 45px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 45px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+    .txt1{
+        font-size: 40px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tel{
+        font-size: 40px;
+        text-align: left;
+    }
+    .email{
+        font-size: 40px;
+        text-align: left;
+    }
+    .submit{
+        text-align: center;
+        font-size: 40px;
+    }
+    .footer{
+        margin: 0 auto;
+        font-size: 60px;
+        text-align: -moz-left;
+    }
 }
-body, div, p {
-    padding: 0px;
-    margin: 0px auto;
-}
-div {
-    margin: 0px;
-    border: 0px solid rgb(38, 0, 252);    
-}
-ul {
-    display: flex;
-    list-style-type: none;    
-    position: relative;
-    justify-content: space-evenly;
-    margin: 5px;
-    border: 5px;
-    padding: 10px;
-}
-.footer{
-    margin: 0 auto;
-    font-size: 26px;
-    text-align: -moz-left;
+@media(min-width:3840px){
+    .slime{
+        text-align: -webkit-center;
+    }
+    .title1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 400px;
+        color:black;
+        text-align: center;
+    }
+    .title2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 180px;
+        margin: 0px;        
+        padding: 15px;
+    }
+    .title4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+        font-size: 200px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .butn {
+        width: 700px;
+        background: #e21a1a;        
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 200px;
+        padding: 50px 100px;
+        text-decoration: none;
+    }
+    .butn:hover {
+        background: #3cb0fd;
+        text-decoration: none;       
+    }
+    .txt3{
+        font-family: Cambria,sans-serif;
+        font-size: 100px;
+        color: red;
+        text-align: center;
+    }
+    .info1{
+        font-family: "Source Code Pro",sans-serif;
+        font-size: 150px;
+        color: rgb(0, 60, 255);
+        text-align: center;
+    }
+    .txt1{
+        font-size: 100px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tel{
+        font-size: 100px;
+        text-align: left;
+    }
+    .email{
+        font-size: 100px;
+        text-align: left;
+    }
+    .submit{
+        text-align: center;
+        font-size: 100px;
+    }
+    .footer{
+        margin: 0 auto;
+        font-size: 60px;
+        text-align: -moz-left;
+    }
 }
